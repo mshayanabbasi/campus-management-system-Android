@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CompanyPanel.CompanyMain.AddJob">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/job"
+        android:hint="Enter Job"
+        android:textColorHint="@color/colorPrimaryDark" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jobType"
+        android:hint="Enter job type"
+        android:textColorHint="@color/colorPrimaryDark" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jobExperience"
+        android:hint="Experience"
+        android:textColorHint="@color/colorPrimaryDark" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jobShift"
+        android:hint="shift"
+        android:textColorHint="@color/colorPrimaryDark" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:id="@+id/jobSalary"
+        android:hint="Enter Salary" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/jobSubmit"
+        android:background="@color/colorPrimaryDark"
+        android:text="Submit" />
+
+</LinearLayout>

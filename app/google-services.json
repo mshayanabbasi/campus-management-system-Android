@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "507397888057",
+    "firebase_url": "https://august-bond-260813.firebaseio.com",
+    "project_id": "august-bond-260813",
+    "storage_bucket": "august-bond-260813.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507397888057:android:8b5d0ac62b184335fcd5e8",
+        "android_client_info": {
+          "package_name": "com.example.campussystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507397888057-r771tgvqsh4q4t972omnacoombjs5rdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsRdXxFHy7mcwGmHKg_VS6jTyJExfglAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507397888057-r771tgvqsh4q4t972omnacoombjs5rdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
